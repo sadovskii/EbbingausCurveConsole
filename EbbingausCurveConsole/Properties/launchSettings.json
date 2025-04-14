@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EbbingausCurveConsole": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

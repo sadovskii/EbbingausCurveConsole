@@ -1,0 +1,6 @@
+services:
+  ebbingauscurveconsole:
+    image: ${DOCKER_REGISTRY-}ebbingauscurveconsole
+    build:
+      context: .
+      dockerfile: EbbingausCurveConsole/Dockerfile
