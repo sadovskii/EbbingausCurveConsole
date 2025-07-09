@@ -14,6 +14,7 @@ var steps = ebbingausService.GetSteps();
 
 do
 {
+
 	for (var i = 0; i < steps.Count; i++)
 	{
 		var message = $"{i + 1} = {String.Join(" ,", steps[i])}";
